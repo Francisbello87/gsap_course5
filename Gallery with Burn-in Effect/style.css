@@ -1,0 +1,16 @@
+.gallery img{
+    width: 640px;
+    height: 480px;
+    position: absolute;
+}
+
+*{
+    position: relative;
+}
+
+.gallery {
+    visibility:hidden;
+    width:640px;
+    height:480px;
+    overflow:hidden;
+  }
