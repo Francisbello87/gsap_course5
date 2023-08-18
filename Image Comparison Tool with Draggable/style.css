@@ -1,0 +1,23 @@
+.dragger{
+    width: 10px;
+    height: 467px;
+    background: red;
+    opacity: 0.5;
+    position: absolute;
+}
+.gallery{
+    width: 700px;
+    height: 467px;
+    visibility: hidden;
+}
+
+.gallery img{
+    width: 700px;
+    height: 467px; 
+    position: absolute;
+}
+
+.clipped{
+    filter: saturate(0) contrast(1.5);
+    clip-path: inset(0px 350px 0px 0px);
+}
